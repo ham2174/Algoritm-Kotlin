@@ -49,7 +49,7 @@ fun main() {
     }
 }
 
-fun bfs(
+private fun bfs(
     map: Array<IntArray>,
     visited: Array<BooleanArray>,
     curX: Int,
