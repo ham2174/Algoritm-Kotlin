@@ -6,7 +6,7 @@ fun main() {
             var result = 0f
             val N = readLine().toInt()
             val scores = readLine().split(" ").map(String::toInt)
-            val M = scores.max()
+            val M = scores.maxOrNull()!!
 
             for (element in scores) {
                 result += element.toFloat() / M * 100

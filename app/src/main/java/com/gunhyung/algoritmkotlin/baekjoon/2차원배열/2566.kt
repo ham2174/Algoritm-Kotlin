@@ -7,7 +7,7 @@ fun main() {
                 readLine().split(" ").map(String::toInt)
             }
 
-            val max = gridPlate.flatten().max()
+            val max = gridPlate.flatten().maxOrNull()
 
             write(max.toString() + "\n")
 

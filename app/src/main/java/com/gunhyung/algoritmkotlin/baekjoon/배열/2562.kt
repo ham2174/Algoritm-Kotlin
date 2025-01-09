@@ -9,7 +9,7 @@ fun main() {
                 arrayList.add(readLine().toInt())
             }
 
-            val max = arrayList.max()
+            val max = arrayList.maxOrNull()
 
             write(max.toString() + "\n" + (arrayList.indexOf(max) + 1).toString())
             close()

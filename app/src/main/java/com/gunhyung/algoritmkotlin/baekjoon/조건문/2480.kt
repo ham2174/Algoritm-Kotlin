@@ -15,6 +15,6 @@ fun main() {
         a == b -> { print(1000 + (a * 100)) }
         a == c -> { print(1000 + (a * 100)) }
         b == c -> { print(1000 + (b * 100)) }
-        else -> { print(list.max() * 100) }
+        else -> { print(list.maxOrNull()!! * 100) }
     }
 }

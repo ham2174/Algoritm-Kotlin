@@ -1,7 +1,5 @@
 package com.gunhyung.algoritmkotlin.baekjoon.조건문
 
-import android.annotation.SuppressLint
-import java.time.LocalDate
 import java.time.LocalTime
 
 fun main() {
@@ -22,7 +20,7 @@ fun main() {
 
 
 fun reference2884() {
-    val (hour, minute) = readLine()!!.split(" ").map { it.toInt() }
+    val (hour, minute) = readln().split(" ").map { it.toInt() }
     val time = LocalTime.of(hour, minute).minusMinutes(45)
 
     print("${time.hour} ${time.minute}")
