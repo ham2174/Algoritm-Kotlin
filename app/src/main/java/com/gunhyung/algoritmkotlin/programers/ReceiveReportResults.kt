@@ -1,9 +1,6 @@
 package com.gunhyung.algoritmkotlin.programers
 
-import android.os.Build
-import androidx.annotation.RequiresApi
-
-/*class Solution {
+/*class com.gunhyung.algoritmkotlin.Solution {
     fun solution(lottos: IntArray, win_nums: IntArray): IntArray {
         var answer: IntArray = intArrayOf()
 
@@ -62,7 +59,6 @@ import androidx.annotation.RequiresApi
 }*/
 
 class Solution {
-    @RequiresApi(Build.VERSION_CODES.N)
     fun solution(id_list: Array<String>, report: Array<String>, k: Int): IntArray =
         report.map { it.split(" ") }
             .groupBy { it[1] }

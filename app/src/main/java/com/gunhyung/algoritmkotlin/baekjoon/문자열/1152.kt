@@ -1,10 +1,7 @@
 package com.gunhyung.algoritmkotlin.baekjoon.문자열
 
-import android.os.Build
-import androidx.annotation.RequiresApi
 import java.util.StringTokenizer
 
-@RequiresApi(Build.VERSION_CODES.N)
 fun main() {
     with(System.`in`.bufferedReader()) {
         with(System.out.bufferedWriter()) {
